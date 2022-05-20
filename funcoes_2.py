@@ -7,7 +7,7 @@ def calcular_pagamento (qtd_hora,valor_taxa):
         h_extra = horas - 40
         salario = 40 * taxa + (h_extra * (1.5*taxa))
     return salario
-str_hora = input ('Digite as horas trabalhadas: ')
-str_taxo = input('Digite o valor da taxa: ')
-total_salario = calcular_pagamento (str_hora,str_taxo)
+str_horas = input ('Digite as horas trabalhadas: ')
+str_taxa = input('Digite o valor da taxa: ')
+total_salario = calcular_pagamento (str_horas,str_taxa)
 print('O valor dos seus rendimentos é : ', total_salario)
